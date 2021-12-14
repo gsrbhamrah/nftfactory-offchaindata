@@ -1,0 +1,31 @@
+{
+  "name": "nftfactory-offchaindata",
+  "version": "1.0.0",
+  "description": "Standard NFT factory contract template with off-chain metadata storage through IFPS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsrbhamrah/nftfactory-offchaindata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsrbhamrah/nftfactory-offchaindata/issues"
+  },
+  "homepage": "https://github.com/gsrbhamrah/nftfactory-offchaindata#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.7.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  }
+}
